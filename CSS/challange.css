@@ -1,3 +1,36 @@
-.hi{
-    nathing right now
+/* multitimes-used-colour */
+.use-me{
+    color: #4E47FF;
+}
+/* font-family From Google */
+
+.G-font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Nav Items */
+.nav-ready{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:50px;
+    margin-inline: 150px;
+}
+.nav-logo{
+    font-size: 34px;
+    font-weight: 900;
+}
+.nav-button{
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 51.5px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: white;
 }
