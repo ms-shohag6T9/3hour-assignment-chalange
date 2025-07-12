@@ -2,6 +2,9 @@
 .use-me{
     color: #4E47FF;
 }
+.bg-color{
+    background-color: rgba(71, 166, 255, 0.1);
+}
 /* font-family From Google */
 
 .G-font{
@@ -40,6 +43,8 @@ header{
     padding: 18px 42px;
     background-color: #4E47FF;
     color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 /*div Item (Name-banner)  */
 .banner{
@@ -138,6 +143,7 @@ section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.10);
     border-radius: 10px;
     margin-top: 34px;
+    background-color: rgba(255, 255, 255,50%);
 }
 
 .fix-in-box{
@@ -156,3 +162,96 @@ section{
     margin-right: 15px;
     margin-left: 34px;
 }
+
+/* Section-three */
+.Ready-content{
+    padding-top: 75px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.10);
+    background-color: rgba(255, 255, 255,50%);
+}
+.banner-hedaer{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.banner-sub-title{
+    font-size:15px;
+    color: rgba(00,00,00,50%);
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+.img-radius{
+    border-radius: 45px;
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+
+/* Form-Part */
+.form-section {
+    display: flex;
+    align-items: center;
+    gap: 80px; 
+    padding: 100px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.form-heading-container {
+    flex: 1;
+
+}
+
+.form-form-container {
+    flex: 1;
+}
+
+.form-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 97px;
+    font-weight: bold;
+    color: #252432;
+    line-height: 1.2;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5A5A5A;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+    font-size: 16px;
+    font-family: inherit;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 15px;
+    border: 1px solid #E0E0E0; 
+    border-radius: 8px; 
+    
+}
+form input:focus,
+form textarea:focus {
+    border-color: #4E47FF;
+    outline: none;  
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical; 
+}
+.after-click-button {
+    width: 100%;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 18px;
+}
+
