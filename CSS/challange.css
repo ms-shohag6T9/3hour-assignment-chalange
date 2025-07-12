@@ -14,10 +14,11 @@
 }
 /* Header-bg-image */
 header{
+   padding-top: 55px;
     background-image: url('../Media/Assets/Hero-bg.png');
-   background-size: cover;
-   background-position: center;
-   height: 85vh;
+    background-size: cover;
+    background-position: center;
+    height:785px;
 }
 /* Nav Items */
 
@@ -25,20 +26,18 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top:50px;
-    margin-inline: 150px;
+    margin-inline: 200px;
 }
 .nav-logo{
-    font-size: 34px;
+    font-size: 40px;
     font-weight: 900;
 }
 .nav-button{
     border: 0px;
     border-radius: 7px;
-    margin-top: 51.5px;
     font-weight: bold;
     font-size:18px;
-    padding: 16px 40px;
+    padding: 18px 42px;
     background-color: #4E47FF;
     color: white;
 }
@@ -46,14 +45,13 @@ header{
 .banner{
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 237px;
     text-align: center;
     color: #252432;
-    margin-top: 200px;
-    margin-bottom: 237px;
 }
 
 .banner-hedaer{
-    font-size: 65px;
+    font-size: 85px;
     font-weight: bold;
     font-family: raleway sans-serif;
 }
