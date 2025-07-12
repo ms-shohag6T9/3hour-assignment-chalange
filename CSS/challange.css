@@ -55,4 +55,30 @@ header{
     font-weight: bold;
     font-family: raleway sans-serif;
 }
+/* Main Section One */
 
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 155px;
+    margin-top: 200px;
+}
+ul li{
+    list-style: none;
+}
+.fix-me{
+    font-size: 38px;
+    font-weight: 100px;
+    font-family:Candara Light;
+    color: rgba(37, 36, 50, 75%);
+}
+.list-section{
+    max-width: 720px;
+    margin-bottom: 5px;
+}
+.fix-img{
+    border-radius: 48px;
+    height: 403px;
+    width: 478px;
+}
